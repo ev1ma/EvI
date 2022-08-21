@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: rgb(230, 230, 230);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.time-count {
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    padding: 73px 86px
+}
+
+.time-count-title {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+
+}
+
+.time-count-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.time-count-val {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 70px;
+    line-height: 80px;
+
+    min-width: 81px;
+}
+
+.time-count-separator {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+
+    margin: 0 20px;
+    line-height: 70px;
+}
+
+.time-count-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.time-count-item {
+    text-align: center;
+}
